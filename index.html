@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
@@ -17,24 +19,42 @@
     <header class="portada">
         <h1 class="header-title"> Hotel Fassetta</h1>
 
-        <nav>
-            <ul>
-                <li> <a class="estilo-navbar" href="">INICIO</a></li>
-                <li> <a class="estilo-navbar" href="./pages/galeria.html">GALERIA</a></li>
-                <li> <a class="estilo-navbar" href="./pages/servicios.html">SERVICIOS</a></li>
-                <li> <a class="estilo-navbar" href="#seccion-promociones">PROMOCIONES</a> </li>
-                <li> <a class="estilo-navbar" href="./pages/contacto.html">CONTACTO</a> </li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active estilo-navbar" aria-current="page" href="">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active estilo-navbar" href="./pages/galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active estilo-navbar" href="#seccion-promociones">Promociones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active estilo-navbar" href="./pages/servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active estilo-navbar" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
     </header>
 
     <main>
-        <section id="seccion-informacion" class="card-promocion">
+        <section id="seccion-informacion" class="container-fluid">
             <h2 class="texto-centrado margin-titulos titulos">Informacion</h2>
 
             <hr>
-            <div class="section-informacion">
-                <article class="texto-centrado">
+            <div class="row">
+                <article class="texto-centrado col-12 col-md-6">
                     <h3 class="margin-titulos">Historia del hotel</h3>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sed reiciendis earum, quis totam
@@ -44,7 +64,7 @@
     
                 </article>
     
-                <article class="texto-centrado">
+                <article class="texto-centrado col-12 col-md-6">
                     <h3 class="margin-titulos">Presentacion</h3>
     
                     <p class="margin-abajo">
@@ -64,10 +84,12 @@
 
         </section>
 
-        <section id="seccion-promociones" class="card-promocion">
+        <section id="seccion-promociones" class="container-fluid">
+
             <h2 class="texto-centrado margin-titulos titulos">Promociones</h2>
-            <div class="galeria-promociones">
-                <article class="card-promocion texto-centrado">
+
+            <div class="row">
+                <article class="texto-centrado col-12 col-lg-6">
                     <h3 class="margin-titulos">PREVIAJE ARGENTINA</h3>
                     <p class="margin-abajo">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sed reiciendis earum, quis totam
@@ -78,7 +100,7 @@
                     <div  class="align-item" ><iframe width="560" height="315" src="https://www.youtube.com/embed/h90FhJCym50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                 </article>
                 
-                <article class="card-promocion texto-centrado">
+                <article class="texto-centrado col-12 col-lg-6">
                     <h3 class="margin-titulos"> Promo Invierno</h3>
                     <p class="margin-abajo">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sed reiciendis earum, quis totam
@@ -86,10 +108,10 @@
                         sunt esse nam culpa amet.
                     </p>
     
-                    <img class="imagen" src="./img/hotel-invierno.jpg" alt="Hotel">
+                    <img class="img-fluid" src="./img/hotel-invierno.jpg" alt="Hotel">
                 </article>
 
-                <article class="card-promocion texto-centrado">
+                <article class="texto-centrado col-12 col-lg-6">
                     <h3 class="margin-titulos">PREVIAJE ARGENTINA</h3>
                     <p class="margin-abajo">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sed reiciendis earum, quis totam
@@ -100,7 +122,7 @@
                     <div  class="align-item" ><iframe width="560" height="315" src="https://www.youtube.com/embed/h90FhJCym50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                 </article>
 
-                <article class="card-promocion texto-centrado">
+                <article class="texto-centrado col-12 col-lg-6">
                     <h3 class="margin-titulos"> Promo Invierno</h3>
                     <p class="margin-abajo">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sed reiciendis earum, quis totam
@@ -108,7 +130,7 @@
                         sunt esse nam culpa amet.
                     </p>
     
-                    <img class="imagen" src="./img/hotel-invierno.jpg" alt="Hotel">
+                    <img class="img-fluid" src="./img/hotel-invierno.jpg" alt="Hotel">
                 </article>
         </section>
 
@@ -159,6 +181,7 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"> </script>
 </body>
 
 </html>

@@ -14,28 +14,19 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 15%;
-    box-sizing: border-box;
     transition: 0.5s;
     color: #E8EBE4;
 }
 
 .portada{
     width: 100%;
-    height: 30vh;
-    display: flex;
-    flex-wrap: wrap;
+    height: 35vh;
     background-image: url(../img/habitacion-hotel.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
 }
 
-.menu-navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .estilo-navbar{
     margin: 0 1rem;
@@ -52,26 +43,12 @@ header {
 
 .header-title {
     text-align: left;
-    padding: 20px;
+    padding: 0px;
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: larger;
-    display: flex;
-    flex-wrap: wrap ;
-}
 
 li {
     color: #E8EBE4;
-}
-
-.imagen {
-    width: 100%;
-    height: 30vh;
-    image-rendering: auto;
 }
 
 .texto-centrado {
@@ -96,19 +73,7 @@ li {
 
 
 
-.card-promocion {
 
-    border: 10px black;
-
-    border-radius: 20px;
-
-    overflow: hidden;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center top;
-
-}
 
 .align-item {
     display: flex;
@@ -151,10 +116,30 @@ li {
     font-size: 15px;
 }
  
-.section-galeria__title {
-    text-align: center;
+
+
+
+
+.galeria-margin {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
+.galeria-img {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+    image-rendering: auto;
+}
+
+ .section-galeria__title {
+    text-align: center;
+}
+/*
 .galeria-hotel__card {
     width: 80%;
     height: 40vh;
@@ -164,7 +149,6 @@ li {
     justify-content: center;
     align-items: center;
 }
-
 
 @media (min-width: 768px){
 
@@ -227,4 +211,4 @@ li {
         grid-template-columns: repeat(4, 23%);
         grid-template-rows: 50vh repeat(2, 30vh);
         }
-}
+} */

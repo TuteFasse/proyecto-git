@@ -4,7 +4,6 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
-    /* border: 1px solid red; */
 }
 
 header {
@@ -23,7 +22,7 @@ header {
     height: 35vh;
     background-image: url(../img/habitacion-hotel.jpg);
     background-repeat: no-repeat;
-    background-position: center top;
+    /* background-position: center top; */
     background-size: cover;
 }
 
@@ -171,76 +170,3 @@ li {
  .pages__title {
     text-align: center;
 }
-/*
-.galeria-hotel__card {
-    width: 80%;
-    height: 40vh;
-    margin: 15px auto;
-    border: 2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@media (min-width: 768px){
-
-    .galeria-promociones{
-    display: grid;
-    grid-template-columns: repeat(2, 45%);
-    grid-template-rows: repeat(2, 45%);
-
-    justify-content: center;
-
-    gap: 20px;
-    }
-
-    .card-promocion {
-    width: 100%;
-    height: 100%;
-    
-    margin: 0;
-    }
-
-    .section-informacion {
-        display: grid;
-        grid-template-columns: repeat(2, 45%);
-        grid-template-rows: 30vh;
-        justify-content: center;
-        gap: 20px;
-        overflow: hidden;
-    }
-
-    .galeria-hotel {
-        display: grid;
-        grid-template-columns: repeat(2, 45%);
-        grid-template-rows: 50vh repeat(2, 45vh);
-        justify-content: center;
-        gap: 20px;
-        overflow: hidden;
-    }
-
-    .galeria-hotel__card {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-
-    
-    }
-}
-
-@media (min-width: 1200px) {
-    .galeria-promociones{
-        display: grid;
-        grid-template-columns: repeat(4, 22.5%);
-        grid-template-rows: 60vh;
-    
-        justify-content: center;
-    
-        gap: 20px;
-        }
-
-    .galeria-hotel {
-        grid-template-columns: repeat(4, 23%);
-        grid-template-rows: 50vh repeat(2, 30vh);
-        }
-} */

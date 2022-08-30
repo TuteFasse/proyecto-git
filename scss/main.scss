@@ -1,1 +1,19 @@
+* {
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.pages__title {
+    text-align: center;
+}
+
 @import 'partials/header';
+@import 'base/variables';
+@import 'partials/inicio';
+@import 'partials/contacto';
+@import 'partials/galeria';
+@import 'partials/servicios';
+@import 'partials/footer';

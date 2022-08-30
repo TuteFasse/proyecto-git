@@ -1,0 +1,16 @@
+.servicios-contenedor {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+}
+
+
+.servicios__title {
+    text-align: center;
+    background-color: $colorfondoServicios;
+    color: $colortextoServicios;
+}

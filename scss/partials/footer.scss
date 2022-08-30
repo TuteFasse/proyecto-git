@@ -1,0 +1,44 @@
+.align-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.estilo-footer{
+    width: 100%;
+    background-color: $colorfondoFooter;
+    overflow: hidden;
+}
+
+.grupo-1{
+    width: 95%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+
+.box {
+    h2{
+        color: $colortextoFooter;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+    p{
+        color: $colortextoFooter;
+        margin-bottom: 10px;
+    }
+}
+
+.grupo-2{
+    background-color: $colorderechosFooter;
+    padding: 15px 10px;
+    text-align: center;
+    color: #efefef;
+    small{
+        font-size: 15px;
+    }
+}

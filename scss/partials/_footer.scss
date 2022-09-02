@@ -1,8 +1,6 @@
 .align-item {
-    display: flex;
+    @include flexbox (space-around, center);
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .estilo-footer{

@@ -6,14 +6,18 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-.pages__title {
-    text-align: center;
-}
 
-@import 'partials/header';
 @import 'base/variables';
+@import 'base/mixin';
+@import 'partials/header';
 @import 'partials/inicio';
 @import 'partials/contacto';
 @import 'partials/galeria';
 @import 'partials/servicios';
 @import 'partials/footer';
+
+
+
+.pages__title {
+    @include titulo-paginas()
+}

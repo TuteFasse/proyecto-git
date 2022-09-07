@@ -121,6 +121,9 @@ header ul {
   color: #efefef;
   margin-bottom: 10px;
 }
+.box label {
+  color: #efefef;
+}
 
 .grupo-2 {
   background-color: #0a1a2a;

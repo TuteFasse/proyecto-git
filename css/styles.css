@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -46,6 +47,12 @@ header ul {
   margin-bottom: 15px;
 }
 
+.img-tamaño {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+}
+
 .contacto-margin {
   margin-left: 3%;
   margin-right: 3%;
@@ -87,6 +94,16 @@ header ul {
   text-align: center;
   background-color: #0a1a2a;
   color: #E8EBE4;
+}
+
+.img-center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .align-item {

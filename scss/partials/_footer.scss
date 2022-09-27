@@ -1,3 +1,4 @@
+
 .align-item {
     @include flexbox (space-around, center);
     flex-direction: column;
@@ -20,8 +21,6 @@
 }
 
 .box {
-
-
     h2{
         color: $colortextoFooter;
         margin-bottom: 25px;
